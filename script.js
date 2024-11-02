@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (xrayActive) {
         skeletonImage.style.opacity = opacitySlider.value;
         opacityControl.style.display = "block";
-        body.classList.add("xray-mode"); // Agrega la clase para invertir colores
+        container.classList.add("xray-mode"); // Agrega la clase para invertir colores
         xrayButton.textContent = "Desactivar Rayos X"; // Cambia el texto del botón
       } else {
         skeletonImage.style.opacity = 0;
