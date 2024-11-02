@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Rayos X</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+    <h1 id="invett">Simulador de rayos X</h1>
+    <div class="images">
+      <img src="human.png" alt="Cuerpo humano" class="image" id="humanImage">
+      <img src="skeleton.png" alt="Esqueleto" class="image" id="skeletonImage">
+    </div>
+  </div>
+  <div id="opacityControl" style="display: none;">
+    <label for="opacitySlider" id="invett">Intensidad:</label>
+    <input type="range" id="opacitySlider" min="0" max="1" step="0.01" value="1">
+  </div>
+  <button id="xrayButton" class="xray-button">Activar Rayos X</button>
+<!-- </div> -->
+<div class="content">
+  <p> Los  rayos X son una forma de radiación electromagnética con longitudes de onda muy cortas, que les permite penetrar materiales opacos a la luz visible. Esta capacidad de penetración es fundamental en varias aplicaciones. En el campo médico, los rayos X son utilizados en la radiografía para obtener imágenes del interior del cuerpo humano, aprovechando su capacidad para atravesar tejidos blandos mientras son absorbidos por estructuras más densas como huesos, lo que permite visualizar fracturas y patologías.</p>
+  <script src="script.js"></script>
+</body>
+</html>
